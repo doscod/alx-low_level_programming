@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - task10
  *
  * Return: Always 0 (Success)
