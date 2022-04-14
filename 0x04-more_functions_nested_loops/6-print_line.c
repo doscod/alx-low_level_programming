@@ -5,15 +5,15 @@
  * @n: The number of _ characters to be printed.
  */
 void print_line(int n)
+
 {
-	int i;
+	int len;
 
 	if (n > 0)
 	{
-		for (i = 0; i < n; i++)
-		{
+		for (len = 0; len < n; len++)
 			_putchar('_');
-		}
 	}
+
 	_putchar('\n');
 }
